@@ -28,7 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div style={styles.container}>
-      <h1 style={styles.heading}>Travel Partner Search</h1>
+      
       <SearchBar onSearch={(query) => console.log(query)} />
     </div>
   </React.StrictMode>
