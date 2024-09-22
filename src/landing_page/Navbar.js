@@ -5,12 +5,12 @@ import './Navbar.css';
 function Navbar() {
 const commonBackgroundColor = 'white';
 return (
-  
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: commonBackgroundColor }}>
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <img src={Logo} alt="Logo" className="navbar-logo" />
-        </a>
+
+<nav className="navbar navbar-expand-lg" style={{ backgroundColor: commonBackgroundColor }}>
+<div className="container-fluid">
+<a className="navbar-brand" href="#">
+<img src={Logo} alt="Logo" className="navbar-logo" />
+</a>
 
 
  <div className="collapse navbar-collapse" id="navbarSupportedContent">
