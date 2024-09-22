@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+  }
+.outer{
+    font-family: "Open Sans", sans-serif;
+    font-weight:100;
+    }
+
+
+.inner{
+    height:690px;
+    width:600px;
+    margin:0 auto;
+    margin-top:20px;
+    background-color:whitesmoke;
+    
+    }
+    
+    
+    .fom{
+        margin:0 auto;
+        margin-left:25%;
+        padding:20px;
+        align-items:center;
+        line-height:2.5rem;
+        border-radius:100rem;
+        
+        
+    }
+    
+    
+    h1{
+        margin-left:32%;
+        font-family: "Oleo Script Swash Caps", system-ui;
+        font-size:250%;
+    }
+    
+
+    button{
+        width:17rem;
+        margin-left:28% ;
+        padding:6px;
+        background-color:rgb(46, 48, 48);
+        color:azure;
+        border:none;
+        
+    
+    }
+    button:hover{
+        cursor: pointer;
+        background-color:whitesmoke ;
+    }
+    
+    .para{
+    line-height:20px;
+    text-align: center;
+    margin-left:20px;
+    }
+
+    .terms{
+    line-height:20px;
+    text-align: center;
+    margin-left:8px;
+    margin-top: 80px;
+    
+}
