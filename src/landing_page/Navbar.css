@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:black;
+}
+
+.navbar-logo {
+  width:40%; /* Adjust the width of the logo */
+  margin-left:50px;
+
+}
+
+.navbar-toggler {
+  margin-left: auto; /* Pushes the toggler button to the right */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.nav-item {
+  margin-left: 15px; /* Adjust spacing between nav items */
+  
+}
+
+.nav-link {
+  padding: 0; /* Remove extra padding if necessary */
+  color:azure ;
+  text-decoration:none;
+  margin-right:10px;
+  padding:0;
+}
