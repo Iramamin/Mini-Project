@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.about-container {
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  /* Flexbox layout with proper gap between cards */
+  .about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Adjust the gap between the cards */
+  }
+  
+  .about-card {
+    background-color: #f9f9f9;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .about-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 992px) {
+    .about-cards {
+      flex-direction: row;
+      gap: 40px; /* Adjust the gap for larger screens */
+    }
+  }
+
+
+
+
+
+  .flex-container {
+    display: flex;                       /* Enable flexbox layout */
+    justify-content: space-between;      /* Space items evenly */
+    align-items: flex-start;             /* Align items at the start */
+  }
+  
+  .flex-item {
+    margin-right: 20px;                  /* Add some space between items */
+  }
+  
+  .no-bullets {
+    list-style-type: none;               /* Remove bullet points */
+    padding: 0;                          /* Remove padding */
+  }
+  
+  .no-bullets b {
+    display: block;                      /* Display headings in a block */
+    margin-bottom: 10px;                 /* Space between heading and list */
+  }
+  
+  .no-bullets li {
+    margin-bottom: 8px;                  /* Space between list items */
+  }
+  
+
+
+
+
+
+
+
+
+.footer-images {
+  display: flex; /* Align images in a row */
+  justify-content: space-around; /* Space images evenly */
+  align-items: center; /* Center images vertically */
+  margin: 20px 0; /* Add some margin above and below the images */
+}
+
+.image-container {
+  position: relative; /* Positioning for the overlay text */
+  width: 30%; /* Adjust the width to your liking */
+  overflow: hidden; /* Hide overflow for the overlay text */
+}
+
+.image-container img {
+  width: 100%; /* Make image take full width of its container */
+  height: 500px; /* Maintain aspect ratio */
+  
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.overlay-text {
+  position: absolute; /* Positioning for overlay text */
+  bottom: 10px; /* Distance from the bottom */
+  left: 10px; /* Distance from the left */
+  color: white; /* Text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 5px; /* Padding around the text */
+}
+
+
