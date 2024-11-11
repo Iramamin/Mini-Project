@@ -1,13 +1,13 @@
 import React from 'react';
 import './Login.css'
-import Travel1 from '../home/Travel1.png';
+const Travel1 = './media/Travel1.png';
 
 function Login(){
 return(
   <div class='outer'>
 <div class='inner'>
   <img src={Travel1} alt="Login" className="travel"></img>
-</div>
+
 <div class='form'>
   <form>
   <input placeholder="Enter UserName/email/phone No" size='30' required    style={{  height: '20px' }}></input><br></br>
@@ -17,6 +17,7 @@ return(
   <button class='submit' >Login</button>
 </div>
 <p className='para'>Don't have an account?<a href="/SignUp">SignUp</a></p>
+</div>
 </div>
 );
 }

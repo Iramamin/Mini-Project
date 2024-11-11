@@ -1,43 +1,62 @@
 /* Navbar.css */
 .navbar {
-  border-bottom: 1px solid #ddd;
+  border-bottom:none;
+  box-shadow:none;
+  
 }
+
 
 .container-fluid {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color:black;
+  padding: 0;
+  height:89px;
+  margin-top:-10px;
+  position:fixed;
+  z-index: 10;
+  top:0;
+  left: 0;
+  right: 0;
+ 
 }
 
 .navbar-logo {
-  width:40%; /* Adjust the width of the logo */
-  margin-left:50px;
-
+  width:7.7%; /* Adjust the width of the logo */
+  margin-left:40px;
+  position:fixed;
 }
 
 .navbar-toggler {
-  margin-left: auto; /* Pushes the toggler button to the right */
+  margin-left:500px; /* Pushes the toggler button to the right */
+  position:fixed;
+  width:10px;
 }
-
-.navbar-nav {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-.nav-item {
-  margin-left: 15px; /* Adjust spacing between nav items */
+.navbar-toggler:hover{
+  background-color:black !important; 
+  border-radius:0 !important;
   
 }
-
-.nav-link {
-  padding: 0; /* Remove extra padding if necessary */
-  color:azure ;
-  text-decoration:none;
-  margin-right:10px;
-  padding:0;
+.navbar-nav .nav-link {
+  color: white !important;
+  padding: 10px;
+  font-weight:500;
+ 
 }
+
+.navbar-collapse {
+  justify-content: flex-start;
+  margin-left: 420px;
+}
+@media (min-width: 820px) {
+  .navbar-collapse {
+    justify-content: flex-start;
+    margin-left: 950px;
+  }
+}
+/* .navbar-nav {
+  padding: 10; /* Remove extra padding if necessary */
+  /* color:white !important; */
+  /* margin-left:960px !important; */
+/* } */ 

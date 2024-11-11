@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Font Awesome
-import image1 from './image1.jpg'; 
-import image2 from './image2.jpg'; 
-import image3 from './image3.jpg';
+const image1 = '/media/image1.jpg'; 
+const image2 = './media/image2.jpg'; 
+const image3 = './media/image3.jpg';
 function About() {
   return (
     <div className="about-container">

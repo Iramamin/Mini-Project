@@ -3,13 +3,11 @@ import './Sign.css'
 
 function Sign() {
   return ( 
- <div class="outer">
+
  <div class="inner">
    <br></br>
   <h1>Travel Buddy</h1>
  <p class="para">sign up to find your Buddy <br></br></p>
-
-<br></br>
 <hr></hr>
 <form class="fom">
 <input placeholder="Mobile Number or Email" size='35' required    style={{  height: '20px' }}></input>
@@ -30,7 +28,7 @@ function Sign() {
 Terms, Data Policy and Cookies<br></br>Policy.</p>
         
 </div>
-</div>
+
 );
 }
 

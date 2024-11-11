@@ -1,28 +1,28 @@
 body {
-    overflow: hidden;
+
+    display: flex;                /* Enable Flexbox on body */
+    justify-content: center;      /* Center horizontally */
+    align-items: center;          /* Center vertically */
+    height: 100vh;                /* Full viewport height */
+
   }
-.outer{
-    font-family: "Open Sans", sans-serif;
-    font-weight:100;
-    }
+
 
 
 .inner{
     height:690px;
     width:600px;
-    margin:0 auto;
-    margin-top:20px;
+    text-align: center;
+    margin-top:15px;
     background-color:whitesmoke;
-    
     }
     
     
     .fom{
         margin:0 auto;
-        margin-left:25%;
         padding:20px;
         align-items:center;
-        line-height:2.5rem;
+        line-height:2.4rem;
         border-radius:100rem;
         
         
@@ -30,7 +30,8 @@ body {
     
     
     h1{
-        margin-left:32%;
+        margin-left:0%;
+        margin-top:20px;
         font-family: "Oleo Script Swash Caps", system-ui;
         font-size:250%;
     }
@@ -38,9 +39,8 @@ body {
 
     button{
         width:17rem;
-        margin-left:28% ;
         padding:6px;
-        background-color:rgb(46, 48, 48);
+        background-color:rgb(13, 13, 13);
         color:azure;
         border:none;
         
@@ -48,19 +48,21 @@ body {
     }
     button:hover{
         cursor: pointer;
-        background-color:whitesmoke ;
+        background-color:rgb(64, 149, 168);
     }
     
     .para{
     line-height:20px;
+    margin-left:10px !important;
+    margin-top:20px !important;
     text-align: center;
-    margin-left:20px;
+    
     }
 
     .terms{
     line-height:20px;
     text-align: center;
     margin-left:8px;
-    margin-top: 80px;
+    margin-top: 0px;
     
 }

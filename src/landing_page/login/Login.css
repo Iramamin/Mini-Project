@@ -2,14 +2,17 @@
 .inner {
     position: relative;
     top:15vh; /* Moves the container 1/4th from the top */
+    align-items: center;
+    background-color: white;
 }
   
   .travel {
-    max-width: 100%; /* Ensures the image scales responsively */
-    max-height: 250px; /* Limits the height */
+    max-width: 90%; /* Ensures the image scales responsively */
+    max-height: 150px; /* Limits the height */
     height: auto;
     display: block;
-    margin-left:40%;
+    margin-left:40% !important;
+    margin-top:30%;
   }
 
 
@@ -20,19 +23,18 @@
   }
   .form{
     
-    margin-top:8rem;
+    margin-top:2rem;
     line-height:35px;
-    margin-left:16rem;
   }
 
   @media (min-width: 768px) {
     .form {
-      margin-left:39rem; /* Smaller margin for tablets */
+      margin-left:4rem; /* Smaller margin for tablets */
     }
   }
   .got{
-    margin-right:10rem;
-    margin-left:5rem;
+    margin-right:1rem;
+    margin-left:7rem;
     cursor:pointer;
     margin-block-start:0rem;
     
@@ -40,6 +42,7 @@
   .submit{
     width:15rem;
     height:2rem;
+    line-height:1px;
     border-radius:5px;
   }
   .submit:hover{
@@ -49,11 +52,11 @@
   }
 
   .para{
-    margin-left:17rem;
+    margin-right:2rem !important;
     margin-top:6rem;
   }
   @media (min-width: 768px) {
     .para {
-      margin-left: 39rem; /* Smaller margin for tablets */
+      margin-left: 4rem !important; /* Smaller margin for tablets */
     }
   }
